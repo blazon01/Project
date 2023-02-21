@@ -1,0 +1,58 @@
+body {
+    background-image: url(img/shrek.png);
+    background-size: no-repeat;
+    background-position: ;
+    background-size: cover;
+}
+
+a {
+        color: forestgreen;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu li {
+    list-style: none;
+
+}
+
+.menu a:hover {
+    color: aqua;
+    font-size: 200px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*Прижатие футера*/
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+.content {
+flex: 1 0 auto;
+}
+.footer {
+flex: 0 0 auto;
+}
+.content{
+    color: darkgreen;
+    font-size: 500%;
+}
+.wrapper{
+    color: aqua;
+    
+}
